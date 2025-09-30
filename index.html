@@ -1,27 +1,22 @@
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Landbot/Tidio | Convert a Landing Page into a Chatbot</title>
-  </head>
-  <body>
-   <h1>🚀 My Chatbot Test Page</h1>
- <script src="//storage.googleapis.com/landbot.site/v3/H-3157986-V77CPHRR0GUA8NFP/index.json" async></script>
-   <script SameSite="None; Secure"  type="module" src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs"></script>
-    <script type="module">
-      var myLandbot = new Landbot.Fullpage({
-        configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-3157986-V77CPHRR0GUA8NFP/index.json',
-      });
-    </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Test Chatbot</title>
+</head>
+<body>
+  <h1>🚀 My Chatbot Test Page</h1>
+  <p>If you see this, GitHub Pages is working with live chat!</p>
 
-  </body>
+  <!-- Tidio Chatbot -->
+  <script src="//code.tidio.co/yzgf4roydrcct2ytjmyq90s0vlwzu3g3.js" async></script>
+
+  <!-- Landbot -->
+  <script type="module" src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs"></script>
+  <script type="module">
+    var myLandbot = new Landbot.Livechat({
+      configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-3157986-V77CPHRR0GUA8NFP/index.json',
+    });
+  </script>
+</body>
 </html>
-
-
-
-
-
-
-
-
-
